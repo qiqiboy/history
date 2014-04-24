@@ -37,7 +37,7 @@
         walk:function(func){
             var i=0,j=this.length;
             for(;i<j;i++){
-                if(false===func(this.get(this.key(i))))
+                if(false===func(this.index(i),this.key(i),i))
                     break;
             }
         },
