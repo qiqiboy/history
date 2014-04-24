@@ -4,7 +4,7 @@ myHistory
 > javascript历史记录
 
 ## 注意
-该组件依赖于我开发另一个storage组件storage.js(https://github.com/qiqiboy/storage)，以及一个JSON.js(为ie6 7增加JSON功能，https://github.com/douglascrockford/JSON-js)。
+该组件依赖于我开发另一个storage组件storage.js( https://github.com/qiqiboy/storage )，以及一个JSON.js(为ie6 7增加JSON功能，https://github.com/douglascrockford/JSON-js )。
 添加记录需要指定一个键值用来保证记录唯一性。
 索引越小的数据越新。
 
