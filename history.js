@@ -1,3 +1,9 @@
+/*!
+ * 数据或页面浏览历史记录的javascript实现
+ * @author qiqiboy
+ * @url http://github.com/qiqiboy/history
+ */
+;
 (function(ROOT, NS, undefined){
     
     function myHistory(name){
