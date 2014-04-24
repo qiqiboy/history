@@ -14,7 +14,6 @@
     myHistory.prototype={
         maxSize:10,//历史记录最大数量
         length:0,
-        orderArray:[],
         constructor:myHistory,
         //获取键值为id的数据记录
         get:function(id){
@@ -69,8 +68,7 @@
             });
             this.length=this.orderArray.length;
             while(this.length>this.maxSize){
-                this.length--;
-                this.remove(this.key(this.length));
+                this.remove(this.key(--this.length));
             }
             this.orderArray.length=this.length;
         }
