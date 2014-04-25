@@ -68,7 +68,7 @@
             });
             this.length=this.orderArray.length;
             while(this.length>this.maxSize){
-                this.remove(this.key(--this.length));
+                this.storage.remove(this.key(--this.length));
             }
             this.orderArray.length=this.length;
         }
